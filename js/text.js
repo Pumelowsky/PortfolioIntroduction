@@ -22,7 +22,7 @@ typewriter = () => {
     if(textPos++ != my_titles[index].length)
         setTimeout(typewriter, speed);
     else
-        typedewriter();
+        setTimeout(typedewriter, 1000);
 }
 
 window.addEventListener("load", typewriter);
